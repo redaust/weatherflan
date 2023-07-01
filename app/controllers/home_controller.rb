@@ -7,5 +7,16 @@ class HomeController < ApplicationController
     @uri = URI(@url)
     @response = Net::HTTP.get(@uri)
     @output = JSON.parse(@response) 
+
+# Checks for empty return results.
+    if @output.empty?
+      @final_output = "error"
+    elsif !@output
+      @final_output = "error"
+      else
+        @final_output = @output[0]['AQI']
+        end
+
+
   end
 end
