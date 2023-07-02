@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails application that reads the air quality in my local zipcode using AirNow API. Built in Rails 7.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.1.2
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run this application locally, first install the repo. Using Git Bash (or your preferred terminal), go to the directory where you saved the application. Then, run "rails s". In your web browser, visit http://127.0.0.1:3000/.

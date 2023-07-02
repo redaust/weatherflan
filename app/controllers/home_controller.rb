@@ -38,7 +38,11 @@ class HomeController < ApplicationController
       @api_color = "maroon"
       @api_description = "Hazardous (301-500): Emergency conditions. The entire population is likely to be affected."
     end
-    
-
   end
-end
+
+  def zipcode
+    end
+      
+  end
+
+
