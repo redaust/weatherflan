@@ -4,9 +4,7 @@
         <hr>
         <p>Weather application built in Rails 7. Press "reload" in your web browser to update the reading.</p>
         <p> <%= @api_description %> </p>
-        <a href="#" class="btn <%= @api_color %>"> The current ozone air quality reading in Indianapolis, IN is <%= @final_output %></a>
+        <a href="#" class="card <%= @api_color %>"> The current ozone air quality in Zip Code <%= @zip_query %> is <%= @final_output %>.</a>
     </div>
 </div>
 <br/>
-
-<%= @zip_query %>
