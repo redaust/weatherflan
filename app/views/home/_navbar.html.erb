@@ -7,12 +7,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
-
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Enter Zipcode" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> 
-
+      <%= form_tag home_zipcode_path, :method => 'GET' do %>
+        <%= text_field_tag 'zipcode', nil, placeholder: "Enter Zipcode", class: "form-control me-2" %>
+        <%= submit_tag 'Search', class: 'btn btn-outline-success' %>
+       
+ <% end %>
 
     </div>
   </div>
