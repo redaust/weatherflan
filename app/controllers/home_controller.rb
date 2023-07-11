@@ -43,7 +43,7 @@ class HomeController < ApplicationController
   def zipcode
     @zip_query = params[:zipcode]
     if @zip_query = params[:zipcode] == ""
-      @zip_query = "Hey, you forgot to enter a zipcode."
+      @zip_query = "ERROR: NO ZIPCODE ENTERED"
     elsif @zip_query = params[:zipcode]
      
 require 'net/http'
