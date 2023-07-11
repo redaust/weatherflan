@@ -44,11 +44,17 @@ class HomeController < ApplicationController
     @zip_query = params[:zipcode]
     if @zip_query = params[:zipcode] == ""
       @zip_query = "Hey, you forgot to enter a zipcode."
-    elsif params[:zipcode]
-      ## Api Functionaility
+    elsif @zip_query = params[:zipcode]
+     
+
+
+
+
+
+
+
 
     end
-      
+   end   
   end
 
-end

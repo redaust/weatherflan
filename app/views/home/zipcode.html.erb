@@ -1,4 +1,12 @@
-Zipcode Lookup Page
+<div class="container-fluid <%= @api_color %> text-light p-5">
+    <div class="container bg-dark p-5">
+        <h1 class="display-4">Welcome to Weatherflan</h1>
+        <hr>
+        <p>Weather application built in Rails 7. Press "reload" in your web browser to update the reading.</p>
+        <p> <%= @api_description %> </p>
+        <a href="#" class="btn <%= @api_color %>"> The current ozone air quality reading in Indianapolis, IN is <%= @final_output %></a>
+    </div>
+</div>
 <br/>
 
 <%= @zip_query %>
