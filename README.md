@@ -1,6 +1,6 @@
 # README
 
-A Rails application that reads the air quality in my local zipcode using AirNow API. Has lookup functionality to look up the air quality conditions in any vliad zipode string. Built in Rails 7.
+A Rails application that reads the air quality in my local zipcode using AirNow API. Has lookup functionality to look up the air quality conditions in any valid zipode string. Built in Rails 7.
 
 
 * Ruby version 3.1.2
